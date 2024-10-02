@@ -1,251 +1,271 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+*{
     font-family: "Poppins", sans-serif;
     padding: 0;
     margin: 0;
-    width: 0;
 }
 
-#home{
-    position: absolute;
-    width: 300px;
-    height: 100vh;
-    background-color: #ace2bb;
-    bottom: 1%;
-    p{
-        display: inline-block;
-        position: relative;
-        font-size: 20px;
-        padding: 0px 10px 0px 10px;
-        font-size: x-large;
-        color: gray;
-    }
-    #logo{
-        position: relative;
-        top: 20px;
-        #lo{
-            position: relative;
-            width: 70px;
-            top: 20px;
-        }
-    
-        #re{
-            position: relative;
-            width: 100px;
-            left: 5%;
-            top: 5px;
-        }
-    
-    }
-    
-    #inicio{
-        position: relative;
-        top: 70px;
-
-        #icone_inicio{
-            position: relative;
-            width: 40px;
-            top: 10px;
-            left: 10%;
-        }
-
-        p{
-            display: inline-block;
-            position: relative;
-            left: 20px;
-            font-size: 20px;
-            color: gray;
-        }
-    }
-
-    #calendario{
-        position: relative;
-        top: 30px;
-        #icone_calendario{
-            position: relative;
-            width: 40px;
-            top: 60px;
-            left: 20px;
-        }
-
-        p{
-            top: 50px;
-            font-size: 20px;
-            left: 20px;
-        }
-    }
-
-    #leilao{
-        position: relative;
-        top: 30px;
-        #icone_leilao{
-        position: relative;
-        width: 50px;
-        top: 60px;
-        left: 20px;
-       }
-
-       p{
-        top: 45px;
-        left: 20px;
-        font-size: 20px;
-       }
-    }
-
-    #estatistica{
-        position: relative;
-        top: 50px;
-        #icone_estatistica{
-            position: relative;
-            width: 50px;
-            top: 65px;
-            left: 20px;
-        }
-
-        p{
-            top: 45px;
-            left: 20px;
-            font-size: 20px;
-        }
-    }
-
-    #usuario{
-        position: relative;
-        top: 400px;
-        img{
-            position: relative;
-            width: 50px;
-            top: 20px;
-            left: 20px;
-        }
-        p{
-            font-size: 20px;
-            left: 70px;
-        }
-    }
-
-    #configuracao{
-        position: relative;
-        top: 400px;
-        img{
-            position: relative;
-            width: 70px;
-            top: 20px;
-            left: 20px;
-        }
-        p{
-            font-size: 20px;
-            left: 50px;
-        }
-    }
-}
-
-#barra{
+.barra{
+    display: flex;
     position: relative;
-    width: 100vw;
-    height: 100px;
-    left: 100px;
-    background-color: #11c76f;
-
-    #titulo{
-        display: inline;
+    margin: 20px;
+   
+    #re{
         position: relative;
-        padding: 0px 10px 10px 200px;
-        top: 15px;
-        left: 50px;
-        color: white;
-        font-size: xx-large;
-    }
-
-    #data{
-        display: inline;
-        position: relative;
-        top: 40px;
-        right: 350px;
-        color: white;
-    }
+        left: 10px;
+        width: 10vw;
+    }  
+    
 
     #search{
+        display: flex;
         position: relative;
-        width: 300px;
-        height: 40px;
-        left: 950px;
-        bottom: 15px;
-        border-radius: 30px;
-        background-color: white;
-        #s{
-            display: inline;
-            position: relative;
-            left: 50px;
-            top: 5px;
-            font-size: large;
-            color: gray;
-        }
+        left: 10vw;
+
         #icone_lupa{
-            position: relative;
-            width: 20px;
-            top: 9px;
-            left: 20px;
+            margin-right: 15px;
+            width: 2vw;
         }
+
+        #s{
+            position: relative;
+            top: 7px;
+        }
+       
+    }
+
+    #notificacao{
+        position:relative;
+        width: 2vw;
+        left: 72vw;
     }
 
     #icone_perfil{
+        position:relative;
+        width: 2vw;
+        left: 75vw;
+    }
+}
+
+.filtro{
+    display: flex;
+    margin: 1px;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    background-color: #48DB6C;
+
+    img{
         position: relative;
-        width: 50px;
-        left: 1270px;
-        bottom: 60px;
+        width: 3vw;
+        background-color: #48DB6C;
+    }
+
+    p{
+        position: relative;
+        margin: 10px 30px;
+        height: 10px;
     }
 }
 
 .sub-titulo{
     position: relative;
     top: 5px;
-    left: 340px;
-    width: 250px;
+    left: 17vw;
+    font-size: larger;
+    width: 20vw;
 }
 
 #div1{
     position: relative;
     border-radius: 10px;
-    width: 250px;
-    height: 50px;
-    left: 340px;
+    width: 25vw;
+    height: 8vh;
+    left: 17vw;
     color: white;
     background-color: #11c76f;
 
     p{
         position: relative;
-        top: 15px;
-        left: 15px;
+        top: 2.6vh;
+        left: 1.5vw;
+        font-size: x-large;
     }
+    
+
+    #adicionar{
+        position: relative;
+        border-radius: 20%;
+        width: 2.5vw;
+        left: 21vw;
+        bottom: 4.5vh;
+        opacity: 55%;
+        cursor: pointer;
+    }
+    
 }
 
 .area_leiloes{
     display: flex;
     position: relative;
     border-radius: 10px;
-    width: 710px;
-    height: 200px;
-    left: 340px;
+    width: 66vw;
+    height: 27vh;
+    left: 17vw;
     background-color: rgb(199, 195, 195);
     img{
         display: inline-flex;
         padding: 10px;
         border-radius: 20px;
-        width: 140px;
-        height: 170px;
-        left: 400px;
+        width: 14vw;
+        height: 25vh;
+        left: 40vw;
     }
     .seta{
         display: inline-block;
         position: relative;
         padding: 0;
         border-radius: 100%;
-        width: 50px;
-        height: 50px;
+        width: 4vw;
+        height: 7vh;
         align-self: center;
-        left: 10px;
+        left: 0.1vw;
         background-color: white;
     }
+}
+
+#Adicionar_leilao{
+    display: none;
+    position: absolute;
+    width: 40vw;
+    height: 50vh;
+    bottom: 43vh;
+    left: 46vw;
+    background-color: white;
+    transition: 1s;
+
+    #foto{
+        position: relative;
+        width: 10vw;
+        left: 5vw;
+        top: 8vh;
+    }
+
+    #nomeLeilao{
+        position: relative;
+        left: 6vw;
+        top: 10vh;
+        font-size: larger;
+    }
+
+    #area{
+        position: relative;
+        float: right;
+        border-radius: 10%;
+        width: 20vw;
+        height: 45vh;
+        right: 1vw;
+        bottom: 5vh;
+        background-color: #F3F3F3;
+
+        #sinal{
+            position: relative;
+            border-color: #48DB6C;
+            border-radius: 100%;
+            width: 3vw;
+            top: 10vh;
+            left: 1.5vw;
+        }
+
+        #tipo{
+            position: relative;
+            top: 8vh;
+            left: 2.3vw;
+            font-size: medium;
+        }
+
+        #tipos{
+            position: relative;
+            width: 14vw;
+            height: 7vh;
+            bottom: 2.4vh;
+            left: 5vw;
+
+            .icons{
+                position: relative;
+                border-radius: 100%;
+                padding: 0.6vw;
+                width: 1.5vw;
+                background-color: white;
+            }
+            
+            #plastico{
+                position: relative;
+                left: 0.5vw;
+                bottom: 0.5vh;
+            }
+
+            #papel{
+                position: relative;
+                width: 2vw;
+                left: 1vw;
+                bottom: 0.5vh;
+            }
+
+            #vidro{
+                position: relative;
+                left: 1vw;
+                bottom: 1vh;
+            }
+
+            #metal{
+                position: relative;
+                left: 1.2vw;
+                bottom: 1vh;
+            }
+
+            p{
+                display: inline;
+                position: relative;
+                padding: 0vh 0.5vw;
+                font-size: small;
+                bottom: 1vh;
+            }
+        }
+    }
+    #titulo{
+        position: relative;
+        border-radius: 30px;
+        width: 16vw;
+        height: 3vh;
+        top: 1vh;
+        left: 2vw;
+        background-color: #48DB6C;
+        p{
+            position: relative;
+            top: 0.5vh;
+            font-size: small;
+            text-align: center;
+            color: white;
+        }
+        
+    }
+
+    form{
+        position: relative;
+        border-radius: 30px;
+        top: 3vh;
+        left: 2vw;
+        input{
+            border-radius: 30px;
+        }
+    }
+
+}
+
+#check:checked ~#Adicionar_leilao{
+    display: unset;
+    transition: ease-in-out;
+    transition-duration: 1s;
 }

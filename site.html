@@ -7,58 +7,47 @@
     <link rel="stylesheet" href="site.css">
 </head>
 <body>
-    <div id="barra">
-        <p id="titulo">Bem-vinda Cooperativa</p>
-        <p id="data">22 de agosto de 2024</p>   
-        <div id="search">
+    <div class="barra">
+        <img src="https://uploaddeimagens.com.br/images/004/834/488/original/Recoope.png?1724792322" alt="" id="re">
+
+         <div id="search">
             <img src="https://cdn.icon-icons.com/icons2/2839/PNG/512/preferences_system_search_icon_180956.png" alt="" id="icone_lupa">
             <p id="s">search</p>
         </div>
-        <img src="https://cdn-icons-png.flaticon.com/512/711/711769.png" alt="" id="icone_perfil">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/61/61073.png" alt="" id="notificacao">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/711/711769.png" alt="" id="icone_perfil"> 
     </div>
 
-    <div id="home">
-        <div id="logo">
-            <img src="https://uploaddeimagens.com.br/images/004/834/486/original/Logo.png?1724792268" alt="" id="lo">
-            <img src="https://uploaddeimagens.com.br/images/004/834/488/original/Recoope.png?1724792322" alt="" id="re">
-        </div>
-        
-        
-        <div id="inicio">
-            <img src="https://openclipart.org/image/2400px/svg_to_png/217511/1429747035.png" alt="" id="icone_inicio">
-            <p>início</p>
-        </div>
-        
-        <div id="calendario">
-            <img src="https://cdn-icons-png.flaticon.com/512/2693/2693507.png" alt="" id="icone_calendario">
-            <p>Calendario</p>
-        </div>
-        
-        <div id="leilao">
-            <img src="https://cdn-icons-png.flaticon.com/512/1078/1078325.png" alt="" id="icone_leilao">
-            <p>Leilões</p>
-        </div>
-        
-        <div id="estatistica">
-            <img src="https://cdn-icons-png.flaticon.com/512/117/117761.png" alt="" id="icone_estatistica">
-            <p>estatistica</p>
-        </div>
-        
-        <div id="usuario">
-            <img src="https://w7.pngwing.com/pngs/340/956/png-transparent-profile-user-icon-computer-icons-user-profile-head-ico-miscellaneous-black-desktop-wallpaper-thumbnail.png" alt="">
-            <p>Conta</p>
-        </div>
-
-        <div id="configuracao">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuMj8VMW-oMqohEdhy1AnR2kpFRKysTsAYfw&usqp=CAU" alt="">
-            <p>Configurações</p>
-        </div>
+    <div class="filtro">
+        <img src="https://i.im.ge/2024/10/02/kLo6n1.png-clipart-computer-icons-hamburger-button-menu-menu-desktop-wallpaper-menu-removebg-preview.png" alt="">
+        <p>Todos os materiais</p>
+        <p>Papeis</p>
+        <p>Metais</p>
+        <p>Vidro</p>
+        <p>Plástico</p>
     </div>
-    
+
+    <!-- <input type="checkbox" id="check">
     <p class="sub-titulo">Leilões</p>
     <div id="div1">
         <p>Adicionar leilão</p>
-    </div>
+        <label for="check">
+            <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-vector-plus-icon-png-image_5159049.jpg" alt="" id="adicionar">
+        </label>
+    </div> -->
+
+    <p class="sub-titulo">Seus leilões em alta</p>
+   <div class="area_leiloes">
+    <img src="https://st.depositphotos.com/3538103/5151/i/450/depositphotos_51514387-stock-photo-photograph-icon.jpg" alt="">
+    <img src="https://st.depositphotos.com/3538103/5151/i/450/depositphotos_51514387-stock-photo-photograph-icon.jpg" alt="">
+    <img src="https://st.depositphotos.com/3538103/5151/i/450/depositphotos_51514387-stock-photo-photograph-icon.jpg" alt="">
+    <img src="https://st.depositphotos.com/3538103/5151/i/450/depositphotos_51514387-stock-photo-photograph-icon.jpg" alt="">
+    <img src="https://cdn-icons-png.flaticon.com/512/5800/5800536.png" alt="" class="seta">
+   </div>
+
+
    <p class="sub-titulo">Seus leilões em alta</p>
    <div class="area_leiloes">
     <img src="https://st.depositphotos.com/3538103/5151/i/450/depositphotos_51514387-stock-photo-photograph-icon.jpg" alt="">
@@ -76,6 +65,44 @@
     <img src="https://cdn-icons-png.flaticon.com/512/5800/5800536.png" alt="" class="seta">
    </div>
    
+    <div id="Adicionar_leilao">
+        <p id="nomeLeilao">Leilão#1345</p>
 
+        <img src="https://cdn-icons-png.flaticon.com/512/1160/1160358.png" alt="" id="foto">
+
+        <div id="area">
+            <div id="titulo"> <p> Adicione as informações do leilão </p> </div>
+
+            <form action="#">
+                <input type="text" placeholder="Nome">
+                <br>
+                <input type="text" placeholder="Duração do leilão">
+            </form>
+            <br>
+            <div id="titulo"> <p>Adicione as informações do produto</p> </div>
+            <form action="#">
+                <input type="text" placeholder="Peso"><br>
+                <input type="text" placeholder="Tamanho">
+            </form>
+
+            <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-vector-plus-icon-png-image_5159049.jpg" alt="" id="sinal">
+            <p id="tipo">tipo</p>
+
+            <div id="tipos">
+                <img src="https://png.pngtree.com/png-vector/20220518/ourmid/pngtree-pet-bottle-vector-icon-illustration-isolated-illustration-problem-vector-png-image_36372418.png" alt="" class="icons" id="plastico">
+
+                <img src="https://png.pngtree.com/png-clipart/20220118/ourmid/pngtree-paper-and-pen-office-icons-png-image_4308956.png" alt="" class="icons" id="papel">
+
+                <img src="https://e7.pngegg.com/pngimages/489/396/png-clipart-graphy-drawing-bottle-glass-angle.png" alt="" class="icons" id="vidro">
+
+                <img src="https://w7.pngwing.com/pngs/900/669/png-transparent-iron-bar-iron-ingot-metal-free-s-ore-angle-rectangle-steel-thumbnail.png" alt="" class="icons" id="metal">
+
+                <p>plastico</p> 
+                <p>papel</p>
+                <p>vidro</p>
+                <p>metal</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
