@@ -1,0 +1,94 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.barra{
+    display: flex;
+    margin: 20px;
+   
+    #re{
+        position: relative;
+        left: 10px;
+        width: 10vw;
+    }  
+    
+    #search{
+        display: flex;
+        position: relative;
+        left: 10vw;
+
+        #icone_lupa{
+            margin-right: 15px;
+            width: 2vw;
+        }
+
+        #s{
+            position: relative;
+            top: 7px;
+        }
+       
+    }
+
+    #notificacao{
+        position: relative;
+        width: 2vw;
+        left: 72vw;
+    }
+
+    #icone_perfil{
+        position:relative;
+        width: 2vw;
+        left: 75vw;
+    }
+}
+
+#voltar{
+    display: block;
+    margin: 30px;
+}
+
+h3{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    color: #343C6A;
+}
+
+#text-definion{
+    text-decoration: underline #34A853;
+}
+
+.informacoes{
+    display: flex;  
+    margin: 10px;
+    justify-content: center;
+    
+    form{
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 500px;
+        text-align: center;
+        
+        #perfil{
+            margin: 30px 10px;
+            text-align: center;
+        }
+
+        label, input{
+            display: block;
+            margin: 0;
+            text-align: initial;
+        }
+
+        input{
+            width: 400px;
+        }
+    }
+}
+
+
