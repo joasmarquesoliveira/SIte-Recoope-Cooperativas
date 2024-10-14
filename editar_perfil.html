@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil</title>
+    <link rel="stylesheet" href="styles/editar_perfil.css">
+</head>
+<body>
+    <header>
+        <div class="barra">
+            <img src="https://uploaddeimagens.com.br/images/004/834/488/original/Recoope.png?1724792322" alt="" id="re">
+
+            <div id="search">
+                <img src="https://cdn.icon-icons.com/icons2/2839/PNG/512/preferences_system_search_icon_180956.png" alt="" id="icone_lupa">
+                <p id="s">search</p>
+            </div>
+
+            <img src="https://cdn-icons-png.flaticon.com/512/61/61073.png" alt="" id="notificacao">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/711/711769.png" alt="" id="icone_perfil"> 
+        </div>
+    </header>
+
+    <hr>
+
+    <p id="voltar"> < voltar</p>
+    <h2 id="text-definion">Cooperativa #</h2><h2>123213213</h2>
+
+    <div id="paginas">
+        <a href="editar_perfil.html">Editar perfil</a>
+    </div>
+
+    <container class="informacoes">
+        <img src="data:image/png;base64,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" alt="" id="perfil">
+
+        <br>
+        <p>Nome da Cooperativa</p>
+        <p class="nomeCooperativa">Sou uma Cooperativa</p>
+        
+        <div class="forms">
+            <form action="">
+                <p>Email Atual</p> 
+                <p class="decoracao">souumacooperativa@outlook.com</p>
+                <br>
+                <input type="text" placeholder="Coloque o seu novo E-mail: "> <br>
+                <input type="text" placeholder="Confirme o seu novo E-mail: "> <br>
+                <input type="submit" value="Alterar" id="enviar">
+            </form>
+
+            <div class="linha-vertical"></div>
+
+            <form action="">
+                <input type="text" placeholder="Digite a sua senha atual" id="senha_atual"> <br>
+                <input type="text" placeholder="Coloque o seu novo E-mail: " class="senhas"> <br>
+                <input type="text" placeholder="Confirme o seu novo E-mail: " class="senhas"> <br>
+                <input type="submit" value="Alterar" id="enviar">
+            </form>
+
+            <div class="linha-vertical"></div>
+
+            <form action="">
+                <p>Telefone Atual</p> 
+                <p class="decoracao">XX XXXXX XXXX</p>
+                <br>
+                <input type="text" placeholder="Coloque o seu novo e-mail: "> <br>
+                <input type="text" placeholder="Confirme o seu novo e-mail: "> <br>
+                <input type="submit" value="Alterar" id="enviar">
+            </form>
+        </div>
+
+        <input type="submit" value="Concluir" id="concluir">
+    </container>
+  
+</body>
+</html>

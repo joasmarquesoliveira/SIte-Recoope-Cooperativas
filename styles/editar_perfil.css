@@ -1,0 +1,176 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 200px;
+}
+
+.barra{
+    display: flex;
+    margin: 20px;
+   
+    #re{
+        position: relative;
+        left: 10px;
+        width: 200px;
+    }  
+    
+    #search{
+        display: flex;
+        position: relative;
+        left: 10vw;
+
+        #icone_lupa{
+            margin-right: 15px;
+            width: 2vw;
+        }
+
+        #s{
+            position: relative;
+            top: 7px;
+        }
+       
+    }
+
+    #notificacao{
+        position: relative;
+        width: 2vw;
+        left: 72vw;
+    }
+
+    #icone_perfil{
+        position:relative;
+        width: 2vw;
+        left: 75vw;
+    }
+}
+
+#voltar{
+    display: block;
+    margin: 30px;
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    color: #343C6A;
+}
+
+#text-definion{
+    text-decoration: underline #34A853;
+}
+
+#paginas{
+    display: flex;
+    position: absolute;
+
+    margin: 100px 0px 0px 0px;
+    border: 2px solid;
+
+    width: 250px;
+    height: 400px;
+
+    left: 80px;
+    justify-content: center;
+
+    a{
+        margin: 70px;
+        font-size: larger;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.informacoes{
+    display: flex;
+    position: relative;
+
+    flex-direction: column;
+    align-items: center;
+    bottom: 50px;
+    img{
+        margin-bottom: 30px;
+        width: 130px;
+    }
+    p{
+        margin: 5px;
+        font-size: medium;
+        
+        color: #A1A1A1;
+    }
+
+    .nomeCooperativa{
+        height: 50px;
+        text-decoration: underline;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+.forms{
+    display: flex;
+    form{
+        margin: 30px;
+
+        p{
+            margin: 0;
+        }
+
+        input{
+            margin: 0px 0px 60px 0px;
+            border: none;
+            border-bottom: 1px solid;
+            width: 270px;
+            font-size: medium;
+        }
+
+        #senha_atual{
+            margin: 15px 0px 56px 0px;
+        }
+
+        .senhas{
+            
+        }
+
+        #enviar{
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+
+            width: 150px;
+            height: 30px;
+
+            color: white;
+            background-color: #34A853;
+        }
+    }
+}
+
+.decoracao{
+    text-decoration: underline;
+    height: 50px;
+    font-weight: bold;
+}
+
+.linha-vertical{
+    height: 200px black;
+    margin: 0px 20px 0px 20px;
+    border-left: 1px solid;
+}
+
+#concluir{
+    margin: 50px 20px 20px 20px;
+    border: none;
+
+    width: 300px;
+    height: 50px;
+
+    font-size: larger;
+
+    color: white;
+    background-color: #34A853;
+}
