@@ -1,175 +1,89 @@
 *{
-    font-family: "Poppins", sans-serif;
-    padding: 0;
     margin: 0;
+    padding: 0;
+  
 }
 
-body{
-    height: 200px;
-}
-
-.barra{
+header{
     display: flex;
-    margin: 20px;
-   
-    #re{
-        position: relative;
-        left: 10px;
-        width: 200px;
-    }  
-    
-    #search{
-        display: flex;
-        position: relative;
-        left: 10vw;
-
-        #icone_lupa{
-            margin-right: 15px;
-            width: 2vw;
-        }
-
-        #s{
-            position: relative;
-            top: 7px;
-        }
-       
-    }
-
-    #notificacao{
-        position: relative;
-        width: 2vw;
-        left: 72vw;
-    }
-
-    #icone_perfil{
-        position:relative;
-        width: 2vw;
-        left: 75vw;
-    }
+    justify-content: space-around;
+    padding: 20px;
 }
 
 #voltar{
-    display: block;
-    margin: 30px;
+    margin: 20px;
 }
 
-h2{
-    display: inline-block;
-    position: relative;
-    left: 100px;
-    color: #343C6A;
+#pesquisa{
+    margin: 0px 10vw;
 }
 
-#text-definion{
-    text-decoration: underline #34A853;
-}
-
-#paginas{
+#perfil{
     display: flex;
-    position: absolute;
-
-    margin: 100px 0px 0px 0px;
-    border: 2px solid;
-
-    width: 250px;
-    height: 400px;
-
-    left: 80px;
-    justify-content: center;
-
-    a{
-        margin: 70px;
-        font-size: larger;
-        color: black;
-        text-decoration: none;
-    }
+    margin: 0px 20px;
+    margin-left: auto;
+    position: relative;
 }
 
-.informacoes{
-    display: flex;
-    position: relative;
+#perfil > img{
+    margin: 0px 10px;
+}
 
+#editar-perfil{
+    display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: 50px;
-    img{
-        margin-bottom: 30px;
-        width: 130px;
-    }
-    p{
-        margin: 5px;
-        font-size: medium;
-        
-        color: #A1A1A1;
-    }
-
-    .nomeCooperativa{
-        height: 50px;
-        text-decoration: underline;
-        font-size: large;
-        font-weight: bold;
-    }
 }
 
-.forms{
+#editar-perfil > div{
+    margin: 20px;
+}
+
+#edicao{
     display: flex;
-    form{
-        margin: 30px;
 
-        p{
-            margin: 0;
-        }
 
-        input{
-            margin: 0px 0px 60px 0px;
-            border: none;
-            border-bottom: 1px solid;
-            width: 270px;
-            font-size: medium;
-        }
+    width: 700px;
 
-        #senha_atual{
-            margin: 15px 0px 56px 0px;
-        }
-
-        .senhas{
-            
-        }
-
-        #enviar{
-            margin: 5px;
-            padding: 5px;
-            border-radius: 10px;
-
-            width: 150px;
-            height: 30px;
-
-            color: white;
-            background-color: #34A853;
-        }
-    }
+    justify-content: space-around;
 }
 
-.decoracao{
-    text-decoration: underline;
-    height: 50px;
-    font-weight: bold;
-}
-
-.linha-vertical{
-    height: 200px black;
-    margin: 0px 20px 0px 20px;
-    border-left: 1px solid;
-}
-
-#concluir{
-    margin: 50px 20px 20px 20px;
+#emailB > input{
     border: none;
+    border-bottom: 1px solid gray;
+}
 
-    width: 300px;
-    height: 50px;
+#nomeB{
+    border: 1px solid gray;
+    border-top: 2px;
+    border-bottom: 2px;
+    padding: 0px 25px;
+}
 
-    font-size: larger;
+#nomeB > input{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#telB > input{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.traco{
+    width: 2px; /* espessura do traço */
+    height: 100px; /* altura do traço */
+    background-color: black; /* cor do traço */
+    margin: 0 20px; /* espaçamento horizontal */
+}
+
+#confirmar{
+    display: flex;
+
+    width: 200px;
+    height: 40px;
+
+    justify-content: center;
+    align-items: center;
 
     color: white;
     background-color: #34A853;

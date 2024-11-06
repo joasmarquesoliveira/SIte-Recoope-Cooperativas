@@ -178,6 +178,7 @@ h2{
 
     .alta{
         height: 250px;
+
         .seta_abaixo{
             position: absolute;
             padding: 3px;
@@ -221,6 +222,7 @@ h2{
                 }
             }
         }
+        
     }
 }
 

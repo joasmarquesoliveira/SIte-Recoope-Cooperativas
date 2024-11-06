@@ -80,32 +80,30 @@ h2{
 }
 
 .informacoes{
-    display: flex;  
+    display: flex;
     margin: 10px;
-    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
     
-    form{
-        padding: 20px;
-        border: 1px solid black;
-        border-radius: 10px;
-        width: 500px;
-        text-align: center;
-        
-        #perfil{
-            margin: 30px 10px;
-            text-align: center;
-        }
-
-        label, input{
-            display: block;
-            margin: 0;
-            text-align: initial;
-        }
-
-        input{
-            width: 400px;
-        }
-    }
 }
 
+#P{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+}
 
+#P > p{
+    text-align: left;
+}
+.decoration{
+    text-decoration: underline;
+}
+
+#perfil{
+    padding-bottom: 20px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo Interativa com Checkbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .timeline {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+        }
+        .event {
+            background: white;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 10px 0;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        .event::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 10px;
+            height: 20px;
+            width: 20px;
+            background: #3498db;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .event h4 {
+            margin: 0;
+            color: #3498db;
+        }
+        .description {
+            max-height: 0; /* Inicia com altura 0 */
+            overflow: hidden; /* Oculta conteúdo que transborda */
+            transition: max-height 0.3s ease, opacity 0.3s ease; /* Transição suave */
+            opacity: 0; /* Inicia invisível */
+        }
+        input[type="checkbox"] {
+            display: none; /* Esconde o checkbox */
+        }
+        input[type="checkbox"]:checked + .description {
+            max-height: 100px; /* Altura máxima quando visível */
+            opacity: 1; /* Totalmente visível */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Linha do Tempo Interativa</h1>
+    <div class="timeline">
+        <div class="event">
+            <input type="checkbox" id="event1">
+            <label for="event1">
+                <h4>Evento 1</h4>
+            </label>
+            <p class="description">Descrição do evento 1.</p>
+        </div>
+        <div class="event">
+            <input type="checkbox" id="event2">
+            <label for="event2">
+                <h4>Evento 2</h4>
+            </label>
+            <p class="description">Descrição do evento 2.</p>
+        </div>
+        <div class="event">
+            <input type="checkbox" id="event3">
+            <label for="event3">
+                <h4>Evento 3</h4>
+            </label>
+            <p class="description">Descrição do evento 3.</p>
+        </div>
+        <div class="event">
+            <input type="checkbox" id="event4">
+            <label for="event4">
+                <h4>Evento 4</h4>
+            </label>
+            <p class="description">Descrição do evento 4.</p>
+        </div>
+    </div>
+
+</body>
+</html>
